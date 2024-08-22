@@ -3,7 +3,7 @@ from dp.train import train
 train_data = []
 # Denna section formaterar datan för träning
 #------------------------------------------
-D = open("data2.txt", "r", encoding = "utf-8")
+D = open("data.txt", "r", encoding = "utf-8")
 for line in D:
     lineS = line.split(" ")
     train_data.append((lineS[0],lineS[1],lineS[2][:-2]))
